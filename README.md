@@ -16,6 +16,7 @@ Benchmarking of devices using BWA (Burrows-Wheeler Aligner)
 |--|--|--|--|--|--|--|--|--|--|--|
 | Raspberry Pi Zero 2|  RP3A0 |aarch64 | Raspberry Pi OS (bullseye) | 5.10.92 | 4 |521 | 277 |163|
 | Raspberry Pi 400 | BCM2711| aarch64 | Ubuntu 20.04.4 LTS | 5.4.0 | 4 | 210 | 111 | 63
+| Raspberry Pi 5 4G no cooling | BCM2835 | aarch64 | Raspberry Pi OS (bookworm) | 6.1.0 | 4 | 112 | 58 | 35
 | LG G5 |  Snapdragon 820| aarch64 | Android 11 (LineageOS) | 3.18.113 | 4 | 311 | 143 | 88
 | Xiao Mi 9T Pro |  Snapdragon 855 | aarch64 | Android 11 (stock) | 4.14.180 | 8 | 119| 63 | 35 | 27
 | Motorola Moto G200 5G |  Snapdragon 888+ 5G | aarch64 | Android 11 (stock) | 5.4.86 | 8 | 53 | 35 | 20 | 16
@@ -26,6 +27,7 @@ Benchmarking of devices using BWA (Burrows-Wheeler Aligner)
 | Model | CPU | Arch | OS | Kernel| #Threads|   4 threads (sec)  | 8 threads (sec) | All threads (sec)|
 |--|--|--|--|--|--|--|--|--|
 | Raspberry Pi 400 | BCM2711| aarch64 | Ubuntu 20.04.4 LTS | 5.4.0 | 4 | 466
+| Raspberry Pi 5 4G no cooling | BCM2835 | aarch64 | Raspberry Pi OS (bookworm) | 6.1.0 | 4 | 140
 | LG G5 |  Snapdragon 820| aarch64 | Android 11 (LineageOS) | 3.18.113 | 4 |  342 | 
 | Xiao Mi 9T Pro |  Snapdragon 855 | aarch64 | Android 11 (stock) | 4.14.180 | 8 | 140 | 102
 | Motorola Moto G200 5G |  Snapdragon 888+ 5G | aarch64 | Android 11 (stock) | 5.4.86 | 8 | 118 | 90
